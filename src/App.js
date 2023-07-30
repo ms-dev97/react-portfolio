@@ -17,7 +17,7 @@ function App() {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY == 0) {
+      if (window.scrollY === 0) {
         setIsTopOfPage(true);
       } else {
         setIsTopOfPage(false);
