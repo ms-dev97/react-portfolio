@@ -8,7 +8,7 @@ function Link({page, selectedPage, setSelectedPage}) {
         <AnchorLink
             href={`#${pageLower}`}
             onClick={() => setSelectedPage(pageLower)}
-            className={`${selectedPage == pageLower ? 'text-yellow' : ''} hover:text-yellow transition duration-100`}
+            className={`${selectedPage === pageLower ? 'text-yellow' : ''} hover:text-yellow transition duration-100`}
         >
             {page}
         </AnchorLink>
